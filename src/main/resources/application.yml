@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: lab3-embed
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Luudinhkien_2003
+    url: jdbc:postgresql://localhost:5432/lab3
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        event:
+          merge:
+            entity_copy_observer: allow
