@@ -14,5 +14,9 @@ public class DataResponse {
     private Float humidity;
     private Boolean button1;
     private Boolean button2;
+    private Boolean button3;
+    private Boolean isAutoMode;
+    private Integer temperatureThreshold;
+    private Integer humidityThreshold;
 }
 //"temperature":24,"humidity":40,"button1":false,"button2":false
