@@ -2,7 +2,7 @@ spring:
   application:
     name: lab3-embed
   datasource:
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     username: postgres
     password: Luudinhkien_2003
     url: jdbc:postgresql://localhost:5432/lab3
